@@ -1,15 +1,5 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    font-family: "Arvo";
-    color: white;
-
-}
-html, body{
-    min-height: 100%;
-}
 body{
+    min-height: 100%;
     background: radial-gradient(at top left, rgba(146,43,255,1) 0%, rgba(43,9,107,1) 100%);
     background-repeat: no-repeat;
 }
