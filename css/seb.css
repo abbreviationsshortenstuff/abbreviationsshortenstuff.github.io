@@ -19,10 +19,4 @@ p{
     line-height: 1.5em;
 }
 
-footer p{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 2rem; 
-    color: #bbb;
-}
+
