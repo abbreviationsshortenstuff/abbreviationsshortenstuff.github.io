@@ -1,12 +1,13 @@
-body{
+.body{
     min-height: 100%;
     background: radial-gradient(at top left, rgba(146,43,255,1) 0%, rgba(43,9,107,1) 100%);
     background-repeat: no-repeat;
 }
 
-p{
-    margin: 16px auto;
-    line-height: 1.5em;
-}
+.p1 {
+    font-family: 'Montserrat', sans-serif;
+     color: #08090C;
+     font-size: 20px;
+  }
 
 
