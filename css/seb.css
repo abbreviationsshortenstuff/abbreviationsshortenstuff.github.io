@@ -1,6 +1,6 @@
 .body{
     min-height: 100%;
-    background: radial-gradient(at top left, rgba(146,43,255,1) 0%, rgba(43,9,107,1) 100%);
+    background: radial-gradient(at top left, rgb(218, 208, 228) 0%, rgb(105, 105, 105) 100%);
     background-repeat: no-repeat;
 }
 
