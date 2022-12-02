@@ -1,6 +1,69 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+      </head>  
+    <style>
+      body{
+      
+      background: radial-gradient(at top left, rgb(255, 255, 255) 0%, rgb(114, 114, 114) 100%);
+      background-repeat: no-repeat;
+      }
+      footer{
+      background: radial-gradient(at top left, rgb(255, 255, 255) 0%, rgb(114, 114, 114) 100%);
+      background-repeat: no-repeat;
+      }
+      .p1 {
+      font-family: 'Montserrat', sans-serif;
+      color: #08090C;
+      font-size: 20px;
+      }
+
+    </style>
     <body>
-        <h1>HELLO</h1>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="/abbreviationsshortenstuff.github.io/index.html">Team Abbreviations Shorten Stuff</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li><a href="TeamMemberIntroPage.html">About</a></li>
+                <li><a href="KarlaProfilePage.html">Karla</a></li>
+                <li class="active"><a href="SebProfilePage.html">Sebastian</a></li>
+                <li><a href="KalebProfilePage.html">Kaleb</a></li>
+    
+              </ul>
+            </div>
+          </nav>
+
+          <br>
+          <div class="container">
+            <h1 class="p1" style="font-size: 30px"><b>Kaleb McClenthan</b></h1>
+           <img src="./img/electrical_engineer.jpg" width="300" height="300">
+           <img src="./img/running.jpg" width="300" height="300">
+           <img src="./img/bike.gif" width="300" height="300">
+
+            <h2 class="p1" style="font-size: 24px"><b>About</b></h2>
+            <p class="p1">Hi, I'm Kaleb! I'm a senior majoring in Electrical Engineering and have minors in Computer Science and Math.
+            I'm interested in Control Systems and Graduating. I enjoy
+            running and biking. I'm sure you really wanted to know all this stuff about me, and will totally remember it!
+            Thanks for reading, and stay tuned for more updates.
+            </p>
+
+            <br>
+            <br>
+            <div class="commentbox"></div>
+            <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+            <script>commentBox('5748006380896256-proj')</script>
+            <br>
+          </div>
     </body>
 </html>
